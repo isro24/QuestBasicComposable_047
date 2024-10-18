@@ -49,5 +49,9 @@ fun BasicCompose(isro: Modifier = Modifier){
             fontSize = 60.sp,
             fontWeight = FontWeight.Bold
         )
+
+        Text(
+            text = "Ini adalah halaman Login",
+        )
     }
 }
