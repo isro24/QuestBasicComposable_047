@@ -40,5 +40,10 @@ fun BasicCompose(isro: Modifier = Modifier){
         verticalArrangement = Arrangement.Top,
         modifier = Modifier.fillMaxSize(),
         horizontalAlignment = Alignment.CenterHorizontally
-    )
+    ){
+        Text(
+            text = "Login",
+            modifier = isro,
+        )
+    }
 }
