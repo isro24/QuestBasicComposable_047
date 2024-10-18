@@ -84,7 +84,8 @@ fun BasicCompose(isro: Modifier = Modifier){
         Text(
             text = "Isro Usman",
             fontSize = 15.sp,
-        )
+            color = Color.Red,
+            )
 
     }
 }
