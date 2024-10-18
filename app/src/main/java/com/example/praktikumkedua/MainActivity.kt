@@ -76,5 +76,10 @@ fun BasicCompose(isro: Modifier = Modifier){
             modifier = isro.size(250.dp)
         )
 
+        Text(
+            text = "Nama",
+            fontSize = 15.sp,
+        )
+
     }
 }
