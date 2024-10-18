@@ -33,5 +33,7 @@ class MainActivity : ComponentActivity() {
 @Composable
 
 fun BasicCompose(isro: Modifier = Modifier){
+    Column (
 
+    )
 }
