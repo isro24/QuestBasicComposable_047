@@ -97,7 +97,7 @@ fun BasicCompose(isro: Modifier = Modifier){
         Image(
             painter = painterResource(id = R.drawable.gambar),
             contentDescription = null,
-            modifier = isro.size(350.dp)
+            modifier = isro.size(350.dp).clip(RoundedCornerShape(200.dp))
         )
 
     }
