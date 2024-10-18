@@ -81,5 +81,10 @@ fun BasicCompose(isro: Modifier = Modifier){
             fontSize = 15.sp,
         )
 
+        Text(
+            text = "Isro Usman",
+            fontSize = 15.sp,
+        )
+
     }
 }
